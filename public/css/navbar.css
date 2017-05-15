@@ -1,0 +1,82 @@
+/*cor do menu de navegação*/
+.navbar-default {
+    background-color: rgba(176,168,82,0.8);
+    border: 0px;
+    color: white;
+    font-weight: 700;
+    border-radius: 0px;
+    z-index: 1;
+    margin: 0;
+}
+
+/*quando o mouse passar por cima dos links*/
+.navbar-default .navbar-nav>li>a:hover {
+    color: #b0a852;
+    background-color: transparent;
+    z-index: 1;
+}
+
+/*cor dos links do menu de navegação*/
+.navbar-default .navbar-nav>li>a {
+    color: #f5f5f5;
+    background-color: transparent;
+}
+
+/*Hamburguer color*/
+.navbar-default .navbar-toggle {
+    border-color: rgba(176,168,82,0.8);
+}
+
+/*Hamburguer border radius*/
+.navbar-toggle {
+    border-radius: 0px;
+}
+
+/*Hamburguer dash color and dash color hover*/
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: rgba(96,89,29,0.8);
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 0px;
+}
+.navbar-default .navbar-toggle:hover {
+    background-color: rgba(96,89,29,0.8);
+}
+
+#brandIconNavBar {
+	width: 150px;
+	padding: 0px;
+	margin: 5px 12px;
+}
+
+.navbar-brand{
+	padding: 0px;
+	margin: 0px;
+}
+
+/* colapse earlier */
+
+@media (min-width: 700px) and (max-width: 992px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+}
+
+.dropdown-menu {
+    background-color: rgba(176,168,82,0.8);
+    border: 0px;
+    color: white;
+    font-weight: 700;
+    border-radius: 0px;
+    margin: 0;
+}
