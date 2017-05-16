@@ -66,7 +66,7 @@ hr {
 
 /* home pressets */
 #stage {
-	background: url("../../public/img/pictures/fundoHome.png") center center no-repeat;
+	background: url("../img/pictures/fundoHome.png") center center no-repeat;
 	background-size: cover;
 	color: white;
 	height: 100%;
@@ -122,7 +122,7 @@ hr {
 /* contact section */
 
 #stage-N {
-	background: url("../../public/img/Natuterapia/NatuterapiaS0001.png") center center no-repeat;
+	background: url("/img/Natuterapia/NatuterapiaS0001.png") center center no-repeat;
 	background-size: cover;
 	color: white;
 	height: 100%;
@@ -144,7 +144,7 @@ hr {
 }
 
 #contact {
-	background: url("../../public/img/pictures/fundoHome.png") center center no-repeat;
+	background: url("/img/pictures/fundoHome.png") center center no-repeat;
 	background-size: cover;
 	color: white;
 	height: 100%;
