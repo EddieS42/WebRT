@@ -16,8 +16,11 @@
 	color: white;
 	padding-top: 3rem;
 	margin: auto 0;
+	padding-bottom: 3rem;
 }
 
 .credits li img {
+	padding-bottom: 1rem;
 	width: 150px;
 }
+

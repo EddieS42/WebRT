@@ -56,13 +56,32 @@ hr {
   border: 6px solid #454f0c;
   border-radius: 0;
   width: 180px;
+  outline: none;
 }
 
 .btn-primary:hover {
   color: #fff;
   background-color: #454f0c;
   border-color: #454f0c;
+  outline: none;
 }
+
+.btn-primary:active:focus {
+  color:  #454f0c; 
+  background-color: white;
+  border-color: white;
+  outline: none;
+  box-shadow:none;
+}
+
+.btn-primary:active {
+  color:  #454f0c; 
+  background-color: white;
+  border-color: white;
+  outline: none;
+  box-shadow:none;
+}
+
 
 /* home pressets */
 #stage {
