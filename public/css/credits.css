@@ -1,15 +1,23 @@
 #credits {
 	background-color: black;
 	background-size: cover;
-	height: 100%;
-	width: 100%;
+	max-width: 100%;
+	max-height: 100%;
 	display: flex;
 	align-items: center;
 	padding-top: 1rem;
+	text-align: center;
+	margin: auto 0;
 }
 
 .credits {
 	list-style-type: none;
 	text-align: center;
 	color: white;
+	padding-top: 3rem;
+	margin: auto 0;
+}
+
+.credits li img {
+	width: 150px;
 }

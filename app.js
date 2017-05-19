@@ -8,11 +8,17 @@ var bodyParser = require("body-parser");
 app.use(express.static("node_modules"));
 app.use(express.static("public"));
 
+// setting app
+app.use(bodyParser.urlencoded({extended:true}));
+
 // setting view engine for make ejs standart
 app.set("view engine", "ejs");
 
-// setting app
-app.use(bodyParser.urlencoded({extended:true}));
+// database temporária
+
+var matters = [
+		{title:"Dia da Sopa", image: "img/matters/dia_sopa.jpg", content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."},
+	]
 
 // site routes
 app.get("/", function (req, res) {
@@ -30,9 +36,6 @@ app.get("/works-PT", function(req,res){
 // blog routes
 
 app.get("/blog-PT", function(req,res){
-	var matters = [
-		{title:"Dia da Sopa", image: "img/matters/dia_sopa.jpg", content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."},
-	]
 	res.render("blog_PT",{matters: matters});
 })
 

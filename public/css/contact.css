@@ -6,7 +6,7 @@
 	width: 100%;
 	display: flex;
 	align-items: center;
-	padding-top: 8rem;
+	padding-top: 5rem;
 }
 
 /* placeholder */
@@ -76,7 +76,7 @@ input::-ms-input-placeholder { /* Microsoft Edge */
     width: 20%;
 	list-style-type: none;
 	height: 40px;
-	padding-top: 100px;
+	padding-top: 3rem;
 }
 
 #social-media li{
@@ -89,7 +89,8 @@ input::-ms-input-placeholder { /* Microsoft Edge */
 
 #social-media li a{
 	color: white;
-	padding-right: 34px;
+	padding-right: 25px;
+	font-size: 20px;
 }
 
 /* button custom */
@@ -118,4 +119,3 @@ input::-ms-input-placeholder { /* Microsoft Edge */
   background-color: rgba(0,0,0,0.5);
   border-color: #454f0c;
 }
-
