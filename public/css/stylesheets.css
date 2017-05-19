@@ -142,19 +142,3 @@ hr {
 .feature-dark .btn-success{
 	margin: 0;
 }
-
-#contact {
-	background: url("/img/pictures/fundoHome.png") center center no-repeat;
-	background-size: cover;
-	color: white;
-	height: 100%;
-	width: 100%;
-	display: flex;
-	align-items: center;
-}
-
-.form-control {
-	background-color: rgba(0, 0, 0, .2);
-	border: 0px solid ;
-	color: white;
-}

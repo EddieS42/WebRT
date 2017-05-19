@@ -1,0 +1,15 @@
+#credits {
+	background-color: black;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding-top: 1rem;
+}
+
+.credits {
+	list-style-type: none;
+	text-align: center;
+	color: white;
+}

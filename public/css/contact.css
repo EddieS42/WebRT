@@ -1,0 +1,121 @@
+#contact {
+	background: url("/img/pictures/fundoHome01.jpg") center center no-repeat;
+	background-size: cover;
+	color: white;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding-top: 8rem;
+}
+
+/* placeholder */
+
+input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #fff;
+}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #fff;
+   opacity:  1;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #fff;
+   opacity:  1;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #fff;
+}
+input::-ms-input-placeholder { /* Microsoft Edge */
+   color: #fff;
+}
+
+/* Form Custom */
+
+.form-control {
+	background-color: rgba(255, 255, 255, 0.2);
+	border: 0px solid ;
+	color: white;
+	margin-top: 10px;
+}
+
+.form-custom {
+	width: 20%;
+}
+
+.btn-custom-CBG {
+	width: 50%;
+}
+
+.input-group{
+	margin: auto;
+    width: 50%;
+    border: 0px solid;
+    padding: 10px;
+}
+
+.message {
+	height: 100px;
+}
+
+.cabecalho {
+	padding-left: 27.5%;
+}
+.cabecalho p {
+	margin: 0px 0px;
+}
+
+.cabecalho h2 {
+	color: white;
+	margin-bottom: 2px;
+}
+
+/* social midia links */
+
+#social-media{
+	margin: auto;
+    width: 20%;
+	list-style-type: none;
+	height: 40px;
+	padding-top: 100px;
+}
+
+#social-media li{
+	float: left;
+}
+
+#social-media h2{
+	float: left;
+}
+
+#social-media li a{
+	color: white;
+	padding-right: 34px;
+}
+
+/* button custom */
+
+.btn-success {
+	color: white;
+	font-weight: 700;
+	background-color: rgba(255,255,255,0);
+	border: 6px solid white;
+	border-radius: 0;
+	margin-top: 10px;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #454f0c;
+    border-color:  #454f0c;
+}
+
+.input-group a{
+	margin-left: 25%
+}
+
+.btn-success:active:focus {
+  color:  #454f0c; 
+  background-color: rgba(0,0,0,0.5);
+  border-color: #454f0c;
+}
+

@@ -1,3 +1,17 @@
+.navbar-default {
+  height: 60px;
+}
+.navbar-default .navbar-nav > li > a,
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 60px;
+}
+.navbar-form {
+  margin-top: 22px;
+}
+
+
 /*cor do menu de navegação*/
 .navbar-default {
     background-color: rgba(176,168,82,0.8);
@@ -30,7 +44,9 @@
 /*Hamburguer border radius*/
 .navbar-toggle {
     border-radius: 0px;
+    margin: 13px;
 }
+
 
 /*Hamburguer dash color and dash color hover*/
 .navbar-default .navbar-toggle .icon-bar {
@@ -80,3 +96,18 @@
     border-radius: 0px;
     margin: 0;
 }
+
+/* animation when scrolling */
+/*
+.navbar {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+.navbar.scrolled {
+    background: rgb(68, 68, 68); //IE
+    background: rgba(0, 0, 0, 0.78); //NON-IE
+}*/
