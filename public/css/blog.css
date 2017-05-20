@@ -1,0 +1,14 @@
+#FeaturedM {
+	padding-top: 8rem;
+}
+
+.imageMT {
+    display: inline-block;
+    height: 215px;
+    width: 50%;
+    overflow: hidden;
+}
+
+.imageMT img{
+    width: 100%;
+}
